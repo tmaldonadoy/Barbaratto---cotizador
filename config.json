@@ -1,0 +1,64 @@
+{
+  "password_manager": "barbaratto2025",
+  "materiales": {
+    "12c": 440,
+    "17c": 540,
+    "20c": 650
+  },
+  "impresion": {
+    "2_caras": 26.7,
+    "4_caras": 39.3
+  },
+  "brackets": {
+    "12c": [
+      {"costo_min": 0,   "costo_max": 70,   "tipo": "suma",   "valor": 70,   "cantidad_minima": ">1000 unidades"},
+      {"costo_min": 70,  "costo_max": 100,  "tipo": "suma",   "valor": 100,  "cantidad_minima": ">500 unidades"},
+      {"costo_min": 100, "costo_max": 150,  "tipo": "suma",   "valor": 115,  "cantidad_minima": ">400 unidades"},
+      {"costo_min": 150, "costo_max": 653,  "tipo": "multiplicador", "valor": 1.84, "cantidad_minima": ">300 unidades"},
+      {"costo_min": 653, "costo_max": 900,  "tipo": "multiplicador", "valor": 1.70, "cantidad_minima": null},
+      {"costo_min": 900, "costo_max": 1000, "tipo": "multiplicador", "valor": 1.69, "cantidad_minima": null}
+    ],
+    "17c": [
+      {"costo_min": 0,   "costo_max": 70,   "tipo": "suma",   "valor": 70,   "cantidad_minima": ">1000 unidades"},
+      {"costo_min": 70,  "costo_max": 100,  "tipo": "suma",   "valor": 100,  "cantidad_minima": ">500 unidades"},
+      {"costo_min": 100, "costo_max": 150,  "tipo": "suma",   "valor": 115,  "cantidad_minima": ">400 unidades"},
+      {"costo_min": 150, "costo_max": 700,  "tipo": "multiplicador", "valor": 1.84, "cantidad_minima": ">300 unidades"},
+      {"costo_min": 700, "costo_max": 900,  "tipo": "multiplicador", "valor": 1.71, "cantidad_minima": null},
+      {"costo_min": 900, "costo_max": 1500, "tipo": "multiplicador", "valor": 1.65, "cantidad_minima": null}
+    ],
+    "20c": [
+      {"costo_min": 0,   "costo_max": 70,   "tipo": "suma",   "valor": 70,   "cantidad_minima": ">1000 unidades"},
+      {"costo_min": 70,  "costo_max": 100,  "tipo": "suma",   "valor": 100,  "cantidad_minima": ">500 unidades"},
+      {"costo_min": 100, "costo_max": 150,  "tipo": "suma",   "valor": 115,  "cantidad_minima": ">400 unidades"},
+      {"costo_min": 150, "costo_max": 700,  "tipo": "multiplicador", "valor": 1.84, "cantidad_minima": ">300 unidades"},
+      {"costo_min": 700, "costo_max": 900,  "tipo": "multiplicador", "valor": 1.70, "cantidad_minima": null},
+      {"costo_min": 900, "costo_max": 1000, "tipo": "multiplicador", "valor": 1.69, "cantidad_minima": null},
+      {"costo_min": 1000,"costo_max": 1500, "tipo": "multiplicador", "valor": 1.50, "cantidad_minima": null}
+    ]
+  },
+  "stock_12c": {
+    "300x200x120": 320,
+    "180x80x180": 212,
+    "600x400x400": 1054,
+    "500x400x300": 1080,
+    "420x420x350": 970,
+    "400x300x300": 704,
+    "300x230x300": 465,
+    "300x200x250": 423,
+    "300x200x200": 362,
+    "260x180x250": 369,
+    "200x150x200": 247,
+    "100x100x150": 115,
+    "100x100x110": 120,
+    "140x100x150": 322
+  },
+  "cinta": 570,
+  "film": {
+    "transparente": 3450,
+    "negro": 4050
+  },
+  "ccorr": {
+    "precio_kg": 890,
+    "peso_rollo": 40
+  }
+}
